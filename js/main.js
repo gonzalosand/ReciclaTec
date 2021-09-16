@@ -1,4 +1,4 @@
-//alert("Gracias por visitar ReciclaTec !!");
+alert("Gracias por visitar ReciclaTec !!");
 function cambiarColor(){
 
     document.body.style.backgroundImage = "url('./imagenes/basura2.jpg')";
@@ -6,6 +6,6 @@ function cambiarColor(){
 }
 var validator = $( "#myform" ).validate({
     invalidHandler: function() {
-      $( "#summary" ).text( validator.numberOfInvalids() + " field(s) are invalid" );
+      $( "#summary" ).text( validator.numberOfInvalids() + " Datos Invalidos, por favor volver a intentar" );
     }
   });

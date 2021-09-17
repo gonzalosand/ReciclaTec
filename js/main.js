@@ -1,7 +1,7 @@
 alert("Gracias por visitar ReciclaTec !!");
 function cambiarColor(){
 
-    document.body.style.backgroundImage = "url('./imagenes/basura2.jpg')";
+    document.body.style.backgroundImage = "url('./imagenes/fondonav.jpg')";
 
 }
 var validator = $( "#myform" ).validate({
